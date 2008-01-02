@@ -7,6 +7,7 @@ License: GPL
 Group: System/Kernel and hardware
 Url: http://freequaos.host.sk/schedtool/
 Source: %name-%version.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 schedtool can set all scheduling parameters Linux is capable of or dis-
