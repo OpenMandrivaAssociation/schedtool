@@ -1,5 +1,5 @@
 Name: schedtool
-Version: 1.2.9
+Version: 1.2.10
 Release: %mkrel 1
 
 Summary: Tool for setting and querying scheduling parameters
