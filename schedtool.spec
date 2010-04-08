@@ -1,13 +1,12 @@
-Name: schedtool
-Version: 1.2.10
-Release: %mkrel 5
-
-Summary: Tool for setting and querying scheduling parameters
-License: GPL
-Group: System/Kernel and hardware
-Url: http://freequaos.host.sk/schedtool/
-Source: %name-%version.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
+Name:		schedtool
+Version:	1.3.0
+Release:	%mkrel 1
+Summary:	Tool for setting and querying scheduling parameters
+License:	GPLv2
+Group:		System/Kernel and hardware
+Url:		http://freequaos.host.sk/schedtool/
+Source:		%name-%version.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 schedtool can set all scheduling parameters Linux is capable of or dis-
