@@ -47,3 +47,73 @@ rm -rf %{buildroot}
 %attr(644,root,root) %{_mandir}/man8/%name.*
 
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 1.3.0-2mdv2011.0
++ Revision: 614810
+- the mass rebuild of 2010.1 packages
+
+* Thu Apr 08 2010 Sandro Cazzaniga <kharec@mandriva.org> 1.3.0-1mdv2010.1
++ Revision: 533118
+- update to 1.3.0
+- fix license tag
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 1.2.10-5mdv2010.0
++ Revision: 433621
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tv@mandriva.org> 1.2.10-4mdv2009.0
++ Revision: 260601
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.2.10-3mdv2009.0
++ Revision: 252235
+- rebuild
+
+* Mon Mar 10 2008 Erwan Velu <erwan@mandriva.org> 1.2.10-1mdv2008.1
++ Revision: 183357
+- 1.2.10
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.2.9-1mdv2008.1
++ Revision: 140756
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Mon Jan 29 2007 Lenny Cartier <lenny@mandriva.com> 1.2.9-1mdv2007.0
++ Revision: 114845
+- Update to 1.2.9
+- Import schedtool
+
+* Wed Feb 01 2006 Lenny Cartier <lenny@mandriva.com> 1.2.6-1mdk
+- 1.2.6
+
+* Thu Oct 20 2005 Thierry Vignaud <tvignaud@mandriva.com> 1.2.5-2mdk
+- fix man page (#13699)
+
+* Tue Jul 05 2005 Lenny Cartier <lenny@mandriva.com> 1.2.5-1mdk
+- 1.2.5
+
+* Thu Mar 31 2005 Danny Tholen <obiwan@mailmij.org> 1.2.4-1mdk
+- updated to latest version
+- fix manpage
+
+* Fri Aug 13 2004 Svetoslav Slavtchev <svetljo@gmx.de> 1.1.1-1mdk
+- recompile for contrib
+
+* Tue Jul 20 2004 Torbjorn Turpeinen <tobbe@nyvalls.se> 1.1.1-1thac
+- Updated to latest version.
+
+* Fri Jun 18 2004 Torbjorn Turpeinen <tobbe@nyvalls.se> 1.0-3thac
+- Changed defattr to root,root
+-
+
+* Fri Jun 18 2004 Torbjorn Turpeinen <tobbe@nyvalls.se> 1.0-2thac
+- Moved to bindir
+
+* Sun Jun 13 2004 Torbjorn Turpeinen <tobbe@nyvalls.se> 1.0-1thac
+- Built for Mandrake 10.0
+
