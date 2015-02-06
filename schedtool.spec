@@ -1,6 +1,6 @@
 Name:		schedtool
 Version:	1.3.0
-Release:	%mkrel 2
+Release:	3
 Summary:	Tool for setting and querying scheduling parameters
 License:	GPLv2
 Group:		System/Kernel and hardware
