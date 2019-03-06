@@ -2,7 +2,7 @@
 
 Name:		schedtool
 Version:	1.3.0
-Release:	4
+Release:	5
 Summary:	Tool for setting and querying scheduling parameters
 License:	GPLv2
 Group:		System/Kernel and hardware
@@ -25,18 +25,17 @@ schedtool now supports setting the  CPU-affinity  introduced  in  linux
 2.5.8.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%make
+%make_build
 
 %install
-%makeinstall_std RELEASE="%{name}" DESTPREFIX=%{_prefix}
+%make_install RELEASE="%{name}" DESTPREFIX=%{_prefix}
 chmod -x $RPM_BUILD_ROOT%{_mandir}/man8/schedtool.8.gz
 gunzip $RPM_BUILD_ROOT%{_mandir}/man8/schedtool.8.gz
 
 %files
-%defattr(-,root,root)
-%attr(755,root,root) %_bindir/*
 %doc CHANGES INSTALL LICENSE PACKAGERS README SCHED_DESIGN TUNING
-%attr(644,root,root) %{_mandir}/man8/%name.*
+%attr(755,root,root) %{_bindir}/*
+%attr(644,root,root) %{_mandir}/man8/%{name}.*
