@@ -30,7 +30,7 @@ schedtool now supports setting the  CPU-affinity  introduced  in  linux
 %build
 %setup_compile_flags
 sed -i -e 's/^CFLAGS=.*/CFLAGS=%{optflags}/g' Makefile
-sed -i -e 's/^CC=gcc/CFLAGS=%{__cc}/g' Makefile
+sed -i -e 's/^CC=gcc/CC=%{__cc}/g' Makefile
 
 %make_build
 
