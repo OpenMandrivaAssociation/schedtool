@@ -1,5 +1,3 @@
-%define debug_package %{nil}
-
 Name:		schedtool
 Version:	1.3.0
 Release:	6
@@ -25,7 +23,7 @@ schedtool now supports setting the  CPU-affinity  introduced  in  linux
 %autosetup -p1
 
 %build
-%setup_compile_flags
+%set_build_flags
 sed -i -e 's/^CFLAGS=.*/CFLAGS=%{optflags}/g' Makefile
 sed -i -e 's#^CC=gcc#CC=%{__cc}#g' Makefile
 
