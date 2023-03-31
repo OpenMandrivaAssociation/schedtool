@@ -1,6 +1,6 @@
 Name:		schedtool
 Version:	1.3.0
-Release:	6
+Release:	7
 Summary:	Tool for setting and querying scheduling parameters
 License:	GPLv2
 Group:		System/Kernel and hardware
