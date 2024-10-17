@@ -4,7 +4,7 @@ Release:	7
 Summary:	Tool for setting and querying scheduling parameters
 License:	GPLv2
 Group:		System/Kernel and hardware
-Url:		http://freequaos.host.sk/schedtool/
+Url:		https://freequaos.host.sk/schedtool/
 Source0:	http://freequaos.host.sk/schedtool/%name-%version.tar.bz2
 
 %description
